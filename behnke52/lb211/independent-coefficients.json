@@ -1,0 +1,17 @@
+{
+  "jobs": 50,
+  "original_operations": 250,
+  "original_mode_rows": 4532,
+  "joint_mode_columns": 800,
+  "necessary_rows": 282,
+  "integer_coefficients_checked": 21256,
+  "target": 210,
+  "scope": "Every coefficient regenerated semantically from original JSON. Solver infeasibility remains engine-certified, not a formal proof trace.",
+  "negative_controls_rejected": [
+    "coefficient",
+    "rhs",
+    "duration",
+    "mode_coverage",
+    "input_hash"
+  ]
+}

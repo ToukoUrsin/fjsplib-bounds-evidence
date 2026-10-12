@@ -1,0 +1,23 @@
+{
+  "instance": "behnke33",
+  "status": "INFEASIBLE",
+  "target": 223,
+  "seconds_limit": 60.0,
+  "workers": 4,
+  "seed": 20261102,
+  "cumulative": false,
+  "strengthen": true,
+  "subset_cumulatives": 2,
+  "idle_cuts": false,
+  "idle_budget": null,
+  "ortools": "9.15.6755",
+  "elapsed": 35.808059229981154,
+  "solver_wall_time": 35.805948661,
+  "input_sha256": "c89c33e9f6ae1e56318dd207ab42b4c763ca65793a6187076f4dec312812498c",
+  "greedy_makespan": 272,
+  "objective": null,
+  "best_bound": 0.0,
+  "operations": 250,
+  "modes": 3076,
+  "response": "CpSolverResponse summary:\nstatus: INFEASIBLE\nobjective: NA\nbest_bound: NA\nintegers: 3826\nbooleans: 5153\nconflicts: 2130\nbranches: 229847\npropagations: 2216325\ninteger_propagations: 2694441\nrestarts: 13\nlp_iterations: 39164\nwalltime: 35.8059\nusertime: 35.8059\ndeterministic_time: 73.4785\ngap_integral: 0\n"
+}

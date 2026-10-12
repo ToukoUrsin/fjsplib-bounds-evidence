@@ -1,0 +1,18 @@
+{
+  "instance": "mk13",
+  "target": 382,
+  "cuts": 1,
+  "independent_highs_status": "Infeasible",
+  "highs_seconds": 45.34702658653259,
+  "highs_version": "1.13.0",
+  "seconds_limit": 300.0,
+  "workers": 4,
+  "input_sha256": "9c3acdde3cfaf369aff85eb08383982cd4379ef012f873059328d96dda96c9f0",
+  "cuts_sha256": "f58270aff13f06dde9ea7d96a69391ced3f316ccb1e39b9a86930f823bf81163",
+  "scope": "Necessary integer assignment/energy model, regenerated from original input; solver certificate only, no formal proof",
+  "regenerated_cpsat_status": "INFEASIBLE",
+  "cpsat_seconds": 5.661620893,
+  "independently_reproduced_infeasible": true,
+  "two_solvers_infeasible": true,
+  "changed_coefficient_negative_rejected": true
+}

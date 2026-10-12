@@ -1,0 +1,52 @@
+
+== schedules (stdlib checker)
+{"valid": true, "makespan": 397, "operations": 500, "precedences": 400, "mode_rows": 8824, "machines_used": 60, "machines": 60}
+{"valid": true, "makespan": 383, "operations": 231, "precedences": 201, "mode_rows": 778, "machines_used": 10, "machines": 10}
+{"valid": true, "makespan": 211, "operations": 250, "precedences": 200, "mode_rows": 4532, "machines_used": 59, "machines": 60}
+== behnke33: makespan <= 223 (two separate full models)
+strengthened INFEASIBLE 57.05865974351764
+independent INFEASIBLE 21.586928091943264
+== behnke52: necessary endpoint/prefix rows at horizon 210
+{
+  "target": 210,
+  "input_sha256": "604210f703d62d9eac6579b80bb3e323edb1e20224ea3a7d5d51a6f425f9703c",
+  "source_sha256": "64dadcd6c962a137c403f94c8c078fa2e3847591daef00b582a3b44c1fc6c464",
+  "scope": "Necessary joint first/last-mode inequalities from original public JSON; integral solver status only, no formal proof log",
+  "cp": {
+    "status": "INFEASIBLE",
+    "seconds": 6.821502335000001
+  },
+  "highs": {
+    "status": "Infeasible",
+    "seconds": 29.68115544319153,
+    "version": "1.13.0",
+    "columns": 800,
+    "rows": 282,
+    "nonzeros": 21256
+  },
+  "original211_witness_all_rows_pass": true,
+  "checked_rows": 282
+}
+
+{"jobs": 50, "original_operations": 250, "original_mode_rows": 4532, "joint_mode_columns": 800, "necessary_rows": 282, "integer_coefficients_checked": 21256, "target": 210, "scope": "Every coefficient regenerated semantically from original JSON. Solver infeasibility remains engine-certified, not a formal proof trace.", "negative_controls_rejected": ["coefficient", "rhs", "duration", "mode_coverage", "input_hash"]}
+== mk13: mode-window energetic relaxation at horizon 382
+{
+  "instance": "mk13.fajsp",
+  "target": 382,
+  "cuts": 1,
+  "independent_highs_status": "Infeasible",
+  "highs_seconds": 25.451390743255615,
+  "highs_version": "1.13.0",
+  "seconds_limit": 300.0,
+  "workers": 4,
+  "input_sha256": "9c3acdde3cfaf369aff85eb08383982cd4379ef012f873059328d96dda96c9f0",
+  "cuts_sha256": "f58270aff13f06dde9ea7d96a69391ced3f316ccb1e39b9a86930f823bf81163",
+  "scope": "Necessary integer assignment/energy model, regenerated from original input; solver certificate only, no formal proof",
+  "regenerated_cpsat_status": "INFEASIBLE",
+  "cpsat_seconds": 3.162660171,
+  "independently_reproduced_infeasible": true,
+  "two_solvers_infeasible": true,
+  "changed_coefficient_negative_rejected": true
+}
+drun: exit 0
+drun: fetched 11 changed files (0.0 MB)

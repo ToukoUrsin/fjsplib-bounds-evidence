@@ -1,0 +1,4 @@
+ortools==9.15.6755
+highspy==1.13.0
+numpy
+scipy

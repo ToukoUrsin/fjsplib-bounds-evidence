@@ -1,0 +1,20 @@
+{
+  "target": 210,
+  "input_sha256": "604210f703d62d9eac6579b80bb3e323edb1e20224ea3a7d5d51a6f425f9703c",
+  "source_sha256": "64dadcd6c962a137c403f94c8c078fa2e3847591daef00b582a3b44c1fc6c464",
+  "scope": "Necessary joint first/last-mode inequalities from original public JSON; integral solver status only, no formal proof log",
+  "cp": {
+    "status": "INFEASIBLE",
+    "seconds": 20.544892127
+  },
+  "highs": {
+    "status": "Infeasible",
+    "seconds": 28.847213983535767,
+    "version": "1.13.0",
+    "columns": 800,
+    "rows": 282,
+    "nonzeros": 21256
+  },
+  "original211_witness_all_rows_pass": true,
+  "checked_rows": 282
+}

@@ -1,0 +1,25 @@
+{
+  "cuts": 1,
+  "mode_window_coefficients_checked": 62,
+  "integer_start_placements_checked": 15991,
+  "original_input_sha256": "9c3acdde3cfaf369aff85eb08383982cd4379ef012f873059328d96dda96c9f0",
+  "changed_coefficient_negative_rejected": true,
+  "global_concavity_counterexample": {
+    "duration": 2,
+    "window": [
+      5,
+      7
+    ],
+    "starts": [
+      0,
+      2,
+      4
+    ],
+    "overlaps": [
+      0,
+      0,
+      1
+    ]
+  },
+  "scope": "Original-input arithmetic and endpoint-minimum checks only; no solver infeasibility or formal proof-trace verification"
+}
