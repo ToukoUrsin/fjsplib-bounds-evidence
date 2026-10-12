@@ -13,7 +13,3 @@ echo "== behnke52: necessary endpoint/prefix rows at horizon 210"
 (cd behnke52/lb211 && python3 prefix_bound.py ../../$I/behnke52.json --target 210 --seconds 120 --witness witness211.json --out rerun-prefix210 >/dev/null 2>&1; cat rerun-prefix210/result.json; echo; python3 check_certificate.py ../../$I/behnke52.json necessary-prefix-certificate210.json --out rerun-check --controls 2>&1 | tail -3)
 echo "== mk13: mode-window energetic relaxation at horizon 382"
 (cd mk13/lb383 && python3 check_mode_window_bound.py ../../$I/mk13.fajsp.txt --cuts cuts382.json --out rerun --seconds 300 --workers 4 --cpsat --seed 302 >/dev/null 2>&1; cat rerun/result.json)
-echo "== textbook decision model (decide.py)"
-python3 decide.py $I/behnke33.txt 223 900 4
-python3 decide.py $I/behnke52.txt 210 900 4
-python3 decide.py $I/mk13.txt 382 900 4

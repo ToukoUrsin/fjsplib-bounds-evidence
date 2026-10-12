@@ -48,7 +48,5 @@ output is in `cold-rerun-2026-10-12.log` and the `rerun*` folders.
   machine load <= T, plus one energetic cut on machine index 8 (0-based) over window [0, 368] whose coefficients are each
   operation's minimum overlap with the window. CP-SAT INFEASIBLE (3 s) and HiGHS Infeasible (25 s); coefficients are
   regenerated from the instance and a changed coefficient is rejected.
-- **Textbook check:** `decide.py` is a plain CP-SAT decision model (optional mode intervals, NoOverlap,
-  precedences) for anyone who wants a direct check: `python3 decide.py instances/behnke33.txt 223 900 4`.
 
 Contact: Touko Ursin, touko.ursin@gmail.com
